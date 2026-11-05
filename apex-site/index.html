@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apex Development &amp; Marketing</title>
+  <meta name="description" content="Apex Development & Marketing — real estate development and project marketing, from site acquisition to sell-out.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#top" class="brand" aria-label="Apex Development and Marketing home">
+        <img src="assets/logo.svg" alt="" width="32" height="32">
+        <span>Apex <em>Development &amp; Marketing</em></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+      <nav id="nav-links" class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-sm">Start a conversation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Real estate development · Project marketing</p>
+          <h1>We build it. <br>Then we fill it.</h1>
+          <p class="lede">Apex takes projects from site acquisition through construction and all the way to sell-out or lease-up — with the marketing engine built in from day one, not bolted on at the end.</p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn">Discuss a project</a>
+            <a href="#projects" class="btn btn-ghost">See our work</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 400 320" class="peaks">
+            <polygon points="0,320 140,90 230,220 290,140 400,320" class="peak-back"/>
+            <polygon points="40,320 190,40 340,320" class="peak-front"/>
+            <polyline points="190,40 160,110 190,95 215,120 190,40" class="peak-snow"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <p class="eyebrow">What we do</p>
+        <h2>Two disciplines, one team</h2>
+        <div class="cards two">
+          <article class="card">
+            <h3>Development</h3>
+            <p>We source, entitle, finance and build residential and mixed-use projects.</p>
+            <ul class="checks">
+              <li>Site sourcing &amp; acquisition</li>
+              <li>Feasibility, zoning &amp; entitlements</li>
+              <li>Capital stack &amp; construction financing coordination</li>
+              <li>Construction management &amp; delivery</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Marketing</h3>
+            <p>We market our own projects, and we take on marketing for other developers and builders.</p>
+            <ul class="checks">
+              <li>Brand, naming &amp; project identity</li>
+              <li>Websites, renderings &amp; content</li>
+              <li>Paid media &amp; lead generation</li>
+              <li>Sales/leasing pipeline &amp; reporting</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section alt">
+      <div class="container">
+        <p class="eyebrow">How it works</p>
+        <h2>From dirt to done</h2>
+        <ol class="steps">
+          <li><span>01</span><h3>Acquire</h3><p>Identify and underwrite sites with a clear exit in mind.</p></li>
+          <li><span>02</span><h3>Plan</h3><p>Design, entitle and finance, with market positioning set before the first drawing.</p></li>
+          <li><span>03</span><h3>Build</h3><p>Manage construction while pre-marketing builds demand.</p></li>
+          <li><span>04</span><h3>Sell / lease</h3><p>Launch campaigns, convert leads and close out the project.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Portfolio</p>
+            <h2>Selected projects</h2>
+          </div>
+          <div class="filters" role="tablist" aria-label="Filter projects">
+            <button class="chip active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="chip" data-filter="development" role="tab" aria-selected="false">Development</button>
+            <button class="chip" data-filter="marketing" role="tab" aria-selected="false">Marketing</button>
+          </div>
+        </div>
+        <div id="project-grid" class="cards three"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About Apex</p>
+          <h2>Developers who think like marketers</h2>
+        </div>
+        <div>
+          <!-- PLACEHOLDER: replace with real company story, founding year, markets served, team. -->
+          <p>Most projects treat marketing as the last line item. We start with it. Knowing who the buyer or tenant is shapes what we acquire, how we design it and how fast it absorbs.</p>
+          <p>Because we market our own projects, our marketing clients get a team that has carried the same risk they carry.</p>
+          <p class="muted small">[Placeholder: add markets served, years in business and leadership bios.]</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Have a site, a project or a launch coming up?</h2>
+          <p>Tell us a little about it and we'll get back to you within one business day.</p>
+          <!-- PLACEHOLDER: real contact details -->
+          <ul class="contact-list">
+            <li><strong>Email</strong> <a href="mailto:hello@example.com">hello@example.com</a></li>
+            <li><strong>Phone</strong> <a href="tel:+10000000000">(000) 000-0000</a></li>
+          </ul>
+        </div>
+        <form id="lead-form" class="card form" novalidate>
+          <div class="field-row">
+            <label>Name<input name="name" required autocomplete="name"></label>
+            <label>Company<input name="company" autocomplete="organization"></label>
+          </div>
+          <div class="field-row">
+            <label>Email<input name="email" type="email" required autocomplete="email"></label>
+            <label>Phone<input name="phone" type="tel" autocomplete="tel"></label>
+          </div>
+          <label>I'm interested in
+            <select name="interest" required>
+              <option value="">Choose one</option>
+              <option value="development">Development / partnering on a site</option>
+              <option value="marketing">Marketing for my project</option>
+              <option value="buying">Buying or leasing in an Apex project</option>
+              <option value="other">Something else</option>
+            </select>
+          </label>
+          <label>Tell us about it<textarea name="message" rows="4"></textarea></label>
+          <!-- Honeypot: bots fill it, humans never see it -->
+          <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <label class="consent">
+            <input type="checkbox" name="sms_consent" value="yes">
+            <span>Optional: I agree that Apex Development &amp; Marketing may contact me at the phone number above by call or text, including via automated technology, about my inquiry. Consent is not a condition of any purchase. Msg &amp; data rates may apply. Reply STOP to opt out.</span>
+          </label>
+          <button type="submit" class="btn">Send inquiry</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <span>© <span id="year"></span> Apex Development &amp; Marketing</span>
+      <span class="muted small">Projects shown are for illustration. Nothing on this site is an offer to sell securities.</span>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
